@@ -100,5 +100,36 @@ cd ~/Downloads/agriguard360-app  # Or wherever your app is
 git init
 git add .
 git commit -m "Initial commit for AgriGuard360"
+# Navigate to your project folder (adjust the path if needed)
+cd ~/path/to/AgriGuard360
+
+# Step 1: Initialize a basic package.json file
+npm init -y
+
+# Step 2: Install Expo and required dependencies
+npm install expo react react-native
+
+# Step 3: Install Expo CLI globally (optional but useful)
+npm install -g expo-cli
+
+# Step 4: Add a basic App.js if it doesn't exist already
+echo "import { Text, View } from 'react-native';
+
+export default function App() {
+  return (
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+      <Text>Welcome to AgriGuard360 🌿</Text>
+    </View>
+  );
+}" > App.js
+
+# Step 5: Install EAS CLI
+npm install -g eas-cli
+
+# Step 6: Configure EAS build
+npx eas build:configure
+
+# Step 7: Run the Expo app to confirm it's working
+npx expo start
 
 
