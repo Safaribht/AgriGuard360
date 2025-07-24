@@ -1,0 +1,24 @@
+Last login: Thu Jul 24 04:20:34 on ttys000
+safaribhtgmail.com@mac-{{serial-number}} ~ % cd path/to/AgriGuard360
+npm init -y
+npx create-expo-app .
+npx eas build:configure
+npx eas credentialsgit add .git commit -mgit push origin main
+cd: no such file or directory: path/to/AgriGuard360
+zsh: command not found: npm
+zsh: command not found: npx
+zsh: command not found: npx
+zsh: command not found: npx
+safaribhtgmail.com@mac-{{serial-number}} ~ % 
+safaribhtgmail.com@mac-{{serial-number}} ~ % 
+safaribhtgmail.com@mac-{{serial-number}} ~ % 
+
+
+
+
+
+
+
+
+
+
